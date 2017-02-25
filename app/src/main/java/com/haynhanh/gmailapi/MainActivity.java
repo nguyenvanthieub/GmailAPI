@@ -73,8 +73,8 @@ public class MainActivity extends Activity
     static final int REQUEST_PERMISSION_GET_ACCOUNTS = 1003;
 
     private static final String PREF_ACCOUNT_NAME = "accountName";
-    private static final String[] SCOPES = { GmailScopes.GMAIL_LABELS, GmailScopes.MAIL_GOOGLE_COM, Scopes.PLUS_LOGIN };
-
+    private static final String[] SCOPES = { GmailScopes.MAIL_GOOGLE_COM };
+//GmailScopes.GMAIL_LABELS, , Scopes.PLUS_LOGIN
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
